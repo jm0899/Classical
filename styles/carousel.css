@@ -1,0 +1,154 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+   padding-top: 10px;
+   background-color: #212d3a;
+}
+
+#topBar{
+	 background-color:#212d3a;
+}
+
+/* Social Icon Styling */
+ul#socialIcons li{
+	margin: 15px;
+	
+}
+ul#socialIcons li a{
+	display: inline;
+	border: 5px solid #2e3f51;
+	border-radius:50%;
+	background-color:#2e3f51;
+	padding:5px;
+}
+
+#socialIcons img{
+	filter:opacity(30%);
+}
+#socialIcons img:hover{
+	filter:invert(100%);
+}
+
+#socialIcons a:hover {
+    background-color: red;
+	border-color: red;
+}
+
+/*Top Bar with  Search */
+#topNav{
+   padding: 10px;
+   background-color: white;
+}
+
+form#topNav{
+	border: 5px solid #2e3f51;
+	border-radius:50%;
+	background-color:#2e3f51;
+}
+#searchForm{
+	background-color:#2e3f51;
+	height: 30px;
+	border: 1px solid #2e3f51;
+	border-radius: 40px;
+}
+#searchBar{
+	background-color:#2e3f51;
+	height: 20px;
+	border: 1px solid #2e3f51;
+	border-radius: 40px;
+}
+
+#searchButton{
+	background-color:#212d3a;
+	border: 1px solid #212d3a;
+	border-radius: 50%;
+	height: 25px;
+	margin-bottom: 10px;
+}
+.fa-search{
+	color: white;
+}
+
+/*Site Navigation*/
+.navbar {
+	font-family: Georgia;
+	padding:30px;
+}
+
+.nav-item {
+	font-size: 12px;
+	padding: 10px;
+}
+/*Image Carousel */
+#carousel{
+  background-color: #2f3944;
+  border: 30px solid #2e3f51;
+}
+#carouselControls{
+	padding-top: 60px;
+	padding-bottom: 10px;
+	width: 40px;
+}
+/*Text beside Carousel */
+#articleText{
+	padding: 30px;
+	color:white;
+	font-size: 15px;
+	font-family: Georgia;
+}
+#articleText a{
+	color:white;
+	float: right;
+	text-decoration: none;
+}
+/*Carousel of Quotes */
+#quoteCarouselSection{
+	color: black;
+	font-family: Georgia;
+	font-size: 20px;
+	background-color: white;
+	
+}
+
+#quoteInner{
+	padding-top: 10px;
+}
+/*Main Content/ Info */
+#infoSection{
+	color: black;
+	font-family: Georgia;
+	font-size: 12px;
+	background-color: white;
+	padding-bottom: 100px;
+	padding-top: 50px;
+}
+
+#infoSection img{
+	border: 5px solid gray;
+	box-shadow: 10px 10px 5px grey;
+	margin-bottom:15px;
+}
+#infoSection p{
+	margin-bottom:15px;
+}
+
+/*Thumbnails and twitter links */
+#lowerSection{
+	font-family: Georgia;
+	background-color: #eeeeee;
+	font-size: 15px;
+}
+
+#lowerSection img{
+	border: 5px double gray;
+}
+
+
+footer{
+	padding: 20px;
+	background-color: #eeeeee;
+	font-family: Georgia;
+}
+
